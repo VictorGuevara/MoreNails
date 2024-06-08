@@ -129,10 +129,13 @@ section {
 	transition: all 0.35s ease;
 }
 
-.box img {
+.box .content_img {
+	padding: 30px 20px;
+}
+
+.box .content_img img {
 	width: 100%;
 	height: auto;
-	padding: 50px 40px;
 	border-radius: 10px;
 }
 
@@ -223,7 +226,8 @@ p.info_carga_views_model {
 	display: block;
 	color: var(--pink_color);
 	font-size: var(--p_font);
-	font-weight: 600;
+	font-weight: 500;
+	letter-spacing: 1px;
 	transition: all 0.40s ease;
 }
 
@@ -233,6 +237,7 @@ p.info_carga_views_model {
 }
 
 .action form {
+	display: none;
 	text-align: center;
 }
 
@@ -296,7 +301,7 @@ h5 a.btn_box:hover .icon_button_c {
 
 .icon_button_c {
 	position: relative;
-    top: 9px;
+    top: 8px;
     font-size: 30px;
     color: var(--white_color);
 }
@@ -330,8 +335,8 @@ button.btn_box_vm {
 .top_btn {
 	width: 0px;
     height: 0px;
-    background: var(--text_color);
-    border-radius: 50%;
+    background: #3B3655;
+    border-radius: 10px;
     cursor: pointer;
     top: 50%;
     left: 50%;
