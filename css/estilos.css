@@ -433,10 +433,6 @@ button.btn_box_vm {
 		cursor: pointer;
 		padding-top: 2rem;
 	}
-
-	.box img {
-		padding: 20px 0px;
-	}
 }
 
 @media (min-width: 425px) {
