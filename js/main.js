@@ -6,6 +6,7 @@ let btn_view_more_models = document.getElementById("btn_ver_mas");
 let contador_f = document.getElementById("contador_final");
 let contador_t = document.getElementById("contador_total");
 let top_container = document.querySelector('.top_container');
+let contact_container = document.querySelector('.contact');
 
 // Funciones.
 menu.onclick = () => {
@@ -455,10 +456,11 @@ const a_nails_data = async (count_d) => {
       contador++;
       targets += `
 				<div class="box">
-					<img loading="lazy" src="img/${data_nails[i].name_img}">
+					<div class="content_img">
+						<img loading="lazy" src="img/${data_nails[i].name_img}">
+					</div>
 					<h4>Diseño No. ${contador}</h4>
 					<h5>$ ${data_nails[i].price.toFixed(2)}</h5>
-					<br>
 					<h5>
 						<a href="https://wa.me/50378977473/?text=Hola%20me%20gustaría%20saber%20si%20¿Se%20mantiene%20el%20precio%20del%20Diseño%20No.%20${contador}?" class="btn_box">¿Consultar Diseño? <span class="icon_button_c"><i class='bx bxs-paint'></i></span></a>
 					</h5>
@@ -480,10 +482,11 @@ const a_nails_data = async (count_d) => {
       contador++;
       targets += `
 				<div class="box">
-					<img loading="lazy" src="img/${data_nails[i].name_img}">
+					<div class="content_img">
+						<img loading="lazy" src="img/${data_nails[i].name_img}">
+					</div>
 					<h4>Diseño No. ${contador}</h4>
 					<h5>$ ${data_nails[i].price.toFixed(2)}</h5>
-					<br>
 					<h5>
 						<a href="https://wa.me/50378977473/?text=Hola%20me%20gustaría%20saber%20si%20¿Se%20mantiene%20el%20precio%20del%20Diseño%20No.%20${contador}?" class="btn_box">¿Consultar Diseño? <span class="icon_button_c"><i class='bx bxs-paint'></i></span></a>
 					</h5>
